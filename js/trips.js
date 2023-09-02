@@ -1,3 +1,5 @@
+// Filtering
+
 $(document).ready(function () {
   $(".option button").on("click", function () {
     var filterText = $(this).text();
@@ -33,48 +35,42 @@ $(document).ready(function () {
   });
 });
 
-// Define an empty shopping cart as an array
-const shoppingCart = [];
+// Send Info To LocalStorage
 
-// Function to add an item to the cart
-function addToCart(cardId, cardName, quantity, cardPrice) {
-  // Create an object representing the item
-  const item = {
-    id: cardId,
-    name: cardName,
-    price: cardPrice,
-    quantity: quantity
-  };
+const addToCartButtons = document.querySelectorAll('[data-card-id]');
 
-  // Add the item to the shopping cart
-  shoppingCart.push(item);
+addToCartButtons.forEach(button => {
+    button.addEventListener('click', function () {
+        const cardId = this.getAttribute('data-card-id');
+        const cardName = this.getAttribute('data-card-name');
+        const cardPrice = this.getAttribute('data-product-price');
 
-  // Update the cart display or perform any other desired actions
-  updateCartDisplay();
-}
+        console.log('Card Name:', cardName);
+        console.log('Card Price:', cardPrice);
 
-// Function to update the cart display
-function updateCartDisplay() {
-  // You can customize this function to update the cart display on the checkout page.
-  // For example, you can loop through the shoppingCart array and populate a table with cart details.
-
-  // As an example, let's log the cart contents to the console:
-  console.log("Shopping Cart Contents:");
-  console.table(shoppingCart);
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-  const addToCartButtons = document.querySelectorAll(".add-to-cart");
-
-  addToCartButtons.forEach(function (button) {
-    button.addEventListener("click", function () {
-      const cardId = button.getAttribute("data-card-id");
-      console.log("Card ID:", cardId);
-      const cardName = document.querySelector(`.product-card[data-card-id="${cardId}"] h3`).textContent;
-      const cardPrice = parseFloat(document.querySelector(`.product-card[data-card-id="${cardId}"] .product-price`).textContent.replace("Price: R", "").replace(",", ""));
-      const quantity = 1;
-
-      addToCart(cardId, cardName, quantity, cardPrice);
+        const cartItem = { id: cardId, name: cardName, price: cardPrice };
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        cart.push(cartItem);
+        localStorage.setItem('cart', JSON.stringify(cart));
     });
-  });
+});
+
+// JQuery
+
+$(document).ready(function () {
+  // Add hover effect to product cards
+  $(".product-card").hover(
+      function () {
+          // Mouse enter event
+          $(this).css("transform", "scale(1.05)");
+          $(this).css("box-shadow", "0 0 10px rgba(0, 0, 0, 0.2)");
+          $(this).css("border-color", "#000");
+      },
+      function () {
+          // Mouse leave event
+          $(this).css("transform", "scale(1)");
+          $(this).css("box-shadow", "none");
+          $(this).css("border-color", "#ccc");
+      }
+  );
 });

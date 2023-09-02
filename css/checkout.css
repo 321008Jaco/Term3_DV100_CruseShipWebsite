@@ -2,6 +2,7 @@
   display: flex;
   margin: 0;
   padding: 0;
+  margin-left: -195px;
 }
 
 .nav-item {
@@ -53,45 +54,78 @@ body {
   background-size: cover;
 }
 
-  .custom-table {
-    background-color: rgba(0, 0, 0, 0.1);
-    border: 3px solid black;
-    color: white;
-    border-collapse: collapse;
-    width: 65%;
-    margin: 0 auto;
-    margin-top: 200px;
-  }
-  
-  .custom-table th, .custom-table td {
-    padding: 8px;
-    text-align: center;
-  }
-  
-  .custom-table button {
-    background-color: #ff5555;
-    border: none;
-    color: white;
-    padding: 4px 8px;
-    cursor: pointer;
-  }
-  
-  .custom-table button:hover {
-    background-color: #ff3333;
-  }
+section{
+  margin-bottom: -400px;
+}
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px; /* Adjust the maximum width as needed */
-  }
-  
-  .product-card {
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 300px; /* Adjust the width as needed */
-  }
+#pay {
+  width: 160px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: teal;
+  margin-bottom: -300px;
+  margin-right: 100px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#pay:hover {
+  width: 160px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: rgb(2, 51, 51);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.popup{
+  width: 400px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img{
+  width: 100px;
+  height: auto;
+  margin-top: -15%;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+
+.popup button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: teal;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}

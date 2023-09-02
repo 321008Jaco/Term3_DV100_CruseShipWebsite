@@ -11,7 +11,7 @@
 
 </head>
 <body>
-
+      <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bg-transparent">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">SunSeeker Voyages</a>
@@ -34,17 +34,16 @@
         </div>
       </nav>
 
+      <!-- Header -->
       <header class="header">
 
         <img src="/assets/Header.webp" alt="Header Image" class="header-image">
 
         <div class="header-content">
 
-          <h1>BOOK YOUR TRIP NOW!</h1>
+          <h1 id="welcomeText">BOOK YOUR TRIP NOW!</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium accusantium suscipit totam 
-            aspernatur expedita assumenda enim molestias eos veniam maxime nesciunt, unde dolore aut 
-            voluptates soluta voluptate eius, reprehenderit natus.
+            Discover the World in Comfort and Style Aboard Our Exquisite Cruise Ships. Set Sail with SunSeekerVoyages and Create Timeless Memories on the High Seas. Experience Unmatched Elegance and Unwind in Paradise with SunSeekerVoyages Cruises.
         </p>
 
         <div class="weather">
@@ -56,6 +55,42 @@
 
         </div>
 
+                    <!-- Accordion -->
+                    <div class="col-md-6">
+                      <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Contact Us:
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">You can use the contact form below to send us a message. Please provide your contact details and a brief description of your inquiry, and we'll get back to you as soon as possible.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Where Are We?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">(On cruse only) Click Here to find out where are you.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              About Us:
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">At SunSeekerVoyages, we are passionate about crafting unforgettable journeys that immerse you in the beauty of the world's most enchanting destinations. With a commitment to excellence and a deep love for the sea, we have been providing travelers with luxurious cruise experiences for years. Our dedicated team of experts is dedicated to ensuring your voyage is nothing short of exceptional. Come aboard and let us guide you on a voyage of discovery, relaxation, and adventure</div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
       </header>
 
       <section>
@@ -65,6 +100,7 @@
 
       </section>
 
+      <!-- Carousel Items -->
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

@@ -1,3 +1,13 @@
+// Welcome Text
+
+$(document).ready(function(){
+    $("#welcomeText").text("Welcome Jaco");
+    loadCruise(arrCruise);
+    filterSortCruise();
+});
+
+// Weather API
+
 $(document).ready(function(){
     $.ajax({
         type: "GET",
