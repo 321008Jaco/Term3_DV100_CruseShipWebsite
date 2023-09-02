@@ -118,6 +118,47 @@ section{
   text-align: center;
 }
 
+footer{
+  height: 600px;
+  background-color: black;
+  color: white;
+}
+
 .accordion-body strong {
   font-weight: bold; /* You can adjust the styling as needed */
+}
+
+footer p{
+  text-align: center;
+}
+
+.footleft{
+  margin: auto;
+  width: 40%;
+  float: left;
+  margin-left: 30px;
+}
+
+.footleft p{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.footleft h4{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.footright{
+  width: 40%;
+  float: right;
+}
+
+.footright p{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.footright h6{
+  margin-top: 50px;
 }
