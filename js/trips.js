@@ -16,7 +16,7 @@ $(document).ready(function () {
 
       if (
         (filterText === "Less than 4 days" && parseInt(cardDuration.split(" ")[1]) < 4) ||
-        (filterText === "Less than R14 000" && parseInt(numericPrice) < 14000) ||
+        (filterText === "Row Boat Special" && parseInt(numericPrice) < 14000) ||
         (filterText === "Longer than 4 days" && parseInt(cardDuration.split(" ")[1]) > 4) ||
         (filterText === "All Trips") ||
         (filterText === "Single Destination" && isSingleDestination) ||

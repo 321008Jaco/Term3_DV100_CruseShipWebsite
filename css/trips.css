@@ -72,6 +72,7 @@ body{
 }
 
 .product-card {
+  height: 500px;
   background-color: rgba(255, 255, 255, 0.7);
   border: 1px solid #ccc;
   padding: 15px;
@@ -82,9 +83,9 @@ body{
 }
 
 .product-card:hover {
-  transform: scale(1.05); /* Increase the size on hover */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
-  border-color: #000; /* Change the border color on hover */
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-color: #000;
 }
 
 .product-card button {
@@ -95,7 +96,6 @@ body{
   transform: translateX(-50%);
 }
 
-/* Show the button when the card is hovered */
 .product-card:hover button {
   display: block;
 }
@@ -117,19 +117,50 @@ body{
   padding: 5px 10px;
   border-bottom-left-radius: 5px;
 }
-  
-.add-to-cart {
-  background-color: white;
-  border: none;
-  color: black;
-  padding: 4px 8px;
- cursor: pointer;
-  border-radius: 50px;
-  box-shadow: -3px 5px rgba(0, 0, 0, 0.8);
+
+.product-duration {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
-.add-to-cart:hover {
-  background-color: teal;
-  color: white;
-  border-radius: 50px;
+.product-card:hover .product-duration {
+    display: block;
+    opacity: 1;
+}
+
+.product-destination {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.product-card:hover .product-destination {
+  display: block;
+  opacity: 1;
+}
+
+.product-stop {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.product-card:hover .product-stop {
+  display: block;
+  opacity: 1;
+}
+  
+.cardsbutton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3;
 }
