@@ -1,9 +1,11 @@
 # Term3_DV100_CruseShipWebsite
 
-[OW_PLAGIARISM_DECLARATION_ (1).pdf](https://github.com/321008Jaco/Term3_DV100_CruseShipWebsite/files/12507201/OW_PLAGIARISM_DECLARATION_.1.pdf)
+
 
 
 About The Project:
+
+[OW_PLAGIARISM_DECLARATION_ (1).pdf](https://github.com/321008Jaco/Term3_DV100_CruseShipWebsite/files/12507201/OW_PLAGIARISM_DECLARATION_.1.pdf)
 
 My cruse ship website was created for my business "SunseekerVoyages" it is for people looking for a outing to look at cruse ship deals and offers.
 
