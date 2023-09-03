@@ -87,3 +87,8 @@ Authors:
 
 231008 Jaco Mostert
 Email: 231008@virtualWindow.co.za
+
+Acknowledgements:
+
+Dubios M.  2023, Courtesy Royal Caribbean. https://www.cntraveler.com/story/7-cruise-ship-packing-essentials-according-to-an-avid-cruiser (Accessed 01 August 2023)
+KavalenkavaVolha. 2016, Picturesque view of Oia, Santorini, Greece stock photo. https://www.istockphoto.com/photo/picturesque-view-of-oia-santorini-greece-gm537468976-95335707 (Accessed 01 August 2023)
