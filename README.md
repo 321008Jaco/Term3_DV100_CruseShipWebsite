@@ -1,5 +1,8 @@
 # Term3_DV100_CruseShipWebsite
 
+[OW_PLAGIARISM_DECLARATION_ (1).pdf](https://github.com/321008Jaco/Term3_DV100_CruseShipWebsite/files/12507201/OW_PLAGIARISM_DECLARATION_.1.pdf)
+
+
 About The Project:
 
 My cruse ship website was created for my business "SunseekerVoyages" it is for people looking for a outing to look at cruse ship deals and offers.
@@ -91,4 +94,29 @@ Email: 231008@virtualWindow.co.za
 Acknowledgements:
 
 Dubios M.  2023, Courtesy Royal Caribbean. https://www.cntraveler.com/story/7-cruise-ship-packing-essentials-according-to-an-avid-cruiser (Accessed 01 August 2023)
+
 KavalenkavaVolha. 2016, Picturesque view of Oia, Santorini, Greece stock photo. https://www.istockphoto.com/photo/picturesque-view-of-oia-santorini-greece-gm537468976-95335707 (Accessed 01 August 2023)
+
+Dar Global - Media Source. 2023, Dar Global introduces its unrivalled debut luxury hospitality project in the Maldives in partnership with Dolce & Gabbana. https://www.tourism-economy.com/post-details.php?post_id=Zmpq&post_name=Dar%20Global%20introduces%20its%20unrivalled%20debut%20luxury%20hospitality%20project%20in%20the%20Maldives%20in%20partnership%20with%20Dolce%20%20Gabbana.&segment_name=Others (Accessed 01 August 2023)
+
+CharlieTong. N/A, I light Marina Bay event at Singapore stock photo. https://www.istockphoto.com/photo/i-light-marina-bay-event-at-singapore-gm857489182-141540693 (Accessed 01 August 2023)
+
+Royal Caribbean Internasional. N/A, Cruses to Nassau. https://za.pinterest.com/pin/213217363593518484/ (Accesses 14 August 2023)
+
+Peterson D. 2022, Luxury,Cruise,Ship,Sailing,From,Port. https://www.traveloffpath.com/the-cruise-lines-that-have-dropped-travel-restrictions-and-which-ones-still-have-rules/luxurycruiseshipsailingfromport-2/ (Accesses 30 August 2023)
+
+Justin Sullivan/Getty Images. 2022, A Carnival cruise ship docked in San Francisco, California. https://www.npr.org/2022/11/26/1139277988/cruise-ship-passenger-rescue-coast-guard (Accesses 30 August 2023)
+
+Lloyd C. 2021, white cruise ship on sea under white clouds and blue sky during daytime. https://unsplash.com/photos/Jxyph6ZgbtA (Accesses 30 August 2023)
+
+Wilow2. N/A, Wallpapers.com, https://wallpapers.com/picture/cruise-ship-1600-x-1067-picture-9xrxnuvpq63gf7z6.html (Accesses 30 August 2023)
+
+GETTY. 2023, There were a record number of norovirus outbreaks on cruise ships this year, https://people.com/these-cruise-ships-have-the-highest-and-lowest-sanitation-scores-in-2023-7562718 (Accesses 30 August 2023)
+
+Royal Caribbean. 2023, World's largest cruise ship that's five times bigger than the Titanic fills people with ‘intense dread’, https://www.unilad.com/news/travel/worlds-biggest-cruise-ship-icon-of-the-seas-886849-20230714 (Accesses 30 August 2023)
+
+Kuzenkov J. 2019, photo of foot marks on shore line, https://unsplash.com/photos/NAzlUJurd-I (Accesses 30 August 2023)
+
+Demo Video:
+
+https://drive.google.com/file/d/1IFHJmqJOd_5wLGayiyMmtpqHmTtjRtDt/view?usp=sharing
